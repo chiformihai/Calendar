@@ -5,11 +5,11 @@
 //  Copyright (c) 2014-2015 Julien Martin. All rights reserved.
 //
 
-#import "MGCDayPlannerEKViewController.h"
+#import "MGCIphoneDayPlannerEKViewController.h"
 #import "MainViewController.h"
 
 
-@interface WeekViewController : MGCDayPlannerEKViewController <CalendarViewControllerNavigation>
+@interface WeekViewController : MGCIphoneDayPlannerEKViewController <CalendarViewControllerNavigation>
 
 @property (nonatomic, weak) id<CalendarViewControllerDelegate> delegate;
 

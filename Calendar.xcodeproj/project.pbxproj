@@ -58,6 +58,7 @@
 		72EF08051A3DA597005699CA /* MGCMonthPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF08041A3DA597005699CA /* MGCMonthPlannerViewController.m */; };
 		72EF08151A3DB8C6005699CA /* MonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF080C1A3DB8C6005699CA /* MonthViewController.m */; };
 		72EF08181A3DB8C6005699CA /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EF080E1A3DB8C6005699CA /* YearViewController.m */; };
+		94B924A61C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B924A51C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +163,8 @@
 		72EF080C1A3DB8C6005699CA /* MonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthViewController.m; sourceTree = "<group>"; };
 		72EF080D1A3DB8C6005699CA /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearViewController.h; sourceTree = "<group>"; };
 		72EF080E1A3DB8C6005699CA /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearViewController.m; sourceTree = "<group>"; };
+		94B924A41C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCIphoneDayPlannerEKViewController.h; sourceTree = "<group>"; };
+		94B924A51C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCIphoneDayPlannerEKViewController.m; sourceTree = "<group>"; };
 		DD7BE5C64587768DCB42C743 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -219,6 +222,8 @@
 				72E82BBC1A80E197008B3E2F /* MGCDayPlannerEKViewController.m */,
 				72E82BC91A83A3FF008B3E2F /* MGCMonthPlannerEKViewController.h */,
 				72E82BCA1A83A3FF008B3E2F /* MGCMonthPlannerEKViewController.m */,
+				94B924A41C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.h */,
+				94B924A51C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.m */,
 			);
 			name = EventKit;
 			sourceTree = "<group>";
@@ -578,6 +583,7 @@
 				72B5D902180D73E0004ADB86 /* AppDelegate.m in Sources */,
 				721DC18918219C4D00F9470C /* MainViewController.m in Sources */,
 				72EF08051A3DA597005699CA /* MGCMonthPlannerViewController.m in Sources */,
+				94B924A61C0EE0D900136CF3 /* MGCIphoneDayPlannerEKViewController.m in Sources */,
 				7290307E1A5031EF008C58D3 /* MGCTimeRowsView.m in Sources */,
 				72B5D8FE180D73E0004ADB86 /* main.m in Sources */,
 				7233531118397DD90079B240 /* MGCEventCellLayoutAttributes.m in Sources */,
@@ -720,7 +726,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -739,7 +745,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
